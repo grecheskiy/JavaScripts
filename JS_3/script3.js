@@ -24,9 +24,11 @@ let helloGetup = nameHello => {
 }
 console.log(helloGetup("Nastya"));
 // -------------------------------------------------------------
-const Test = senton => {
-    console.log('test ${}')
+function abc(senton) {
+    t1 = senton = senton * 2;
+    return 'test ${t1}' 
 }
+console.log(abc(3));
 /*
 const pow = x => x*x;
 console.log(pow(5));
