@@ -1,12 +1,12 @@
 const listMan = function(firstName, lastName, age) {
-    return 'Hi ${firstName} ${lastName} with age ${age}';
+    return `Hi ${firstName} ${lastName} with age ${age}`;
 }
 console.log(listMan("Max", "G", 35));
 // -------------------------------------------------------------
 let numMinMax = function(num11, num12) {
     if (num11 > num12) {
-        return '${num12} - minimal'
-    } else return '${num11} - minimal'
+        return `${num12} - minimal`
+    } else return `${num11} - minimal`
 }
 console.log(numMinMax(2, 3));
 // -------------------------------------------------------------
@@ -14,21 +14,16 @@ let helloGetup = nameHello => {
     let result = null;
     let time = new Date().getHours();
     if (time < 10 && time > 6) {
-        result = 'Good morning ${nameHello}';
+        result = `Good morning ${nameHello}`;
     } else if (time < 18 && time > 9) {
-        result = 'Good afternoon ${nameHello}';
+        result = `Good afternoon ${nameHello}`;
     } else if (time < 23 && time > 17) {
-        result = 'Good evening ${nameHello}';
-    } else result = 'Good night ${nameHello}, go to sleep!';
+        result = `Good evening ${nameHello}`;
+    } else result = `Good night ${nameHello}, go to sleep!`;
     return result;
 }
 console.log(helloGetup("Nastya"));
 // -------------------------------------------------------------
-function abc(senton) {
-    t1 = senton = senton * 2;
-    return 'test ${t1}' 
-}
-console.log(abc(3));
 /*
 const pow = x => x*x;
 console.log(pow(5));
