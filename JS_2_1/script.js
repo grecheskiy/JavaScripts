@@ -38,6 +38,7 @@ button.textContent = "Кнопка";
 content.appendChild(button);
 let counter = 0;
 button.addEventListener('click', (e) => {
+    console.log(e);
     counter++;
     console.log(counter);
 // Добавьте текс для кнопки "Отправить" При клике текст менялся на "Отправлено"
