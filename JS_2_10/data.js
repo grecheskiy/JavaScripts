@@ -2,27 +2,27 @@ const dataInfo = `
 [
     {
         "class" : "news-container",
-        "url" : "https://top-fon.com/uploads/posts/2023-01/1674895199_top-fon-com-p-fon-dlya-prezentatsii-intellekt-101.jpg",
+        "url" : "https://images.unsplash.com/photo-1710249400017-c5df2488c072?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "width" : 500,
         "height" : 334,
-        "heading" : "This tool requires no software or programming knowledge to use. Our AI Writer tool has a simple interface that allows you to generate content in a few easy steps.",
-        "text" : "The essays are composed entirely of original content; however"
+        "heading" : "The essays are composed entirely of original content; however",
+        "text" : "This tool requires no software or programming knowledge to use. Our AI Writer tool has a simple interface that allows you to generate content in a few easy steps."
     },
     {
         "class" : "news-container",
-        "url" : "https://imageio.forbes.com/specials-images/imageserve/5f6a29457ce62549d45493de/0x0.jpg?format=jpg&amp;width=1200",
+        "url" : "https://images.unsplash.com/photo-1710003875679-68aa1202e6ae?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "width" : 500,
         "height" : 334,
-        "heading" : "This tool requires no software or programming knowledge to use. Our AI Writer tool has a simple interface that allows you to generate content in a few easy steps.",
-        "text" : "The essays are composed entirely of original content; however"
+        "heading" : "The essays are composed entirely of original content; however",
+        "text" : "This tool requires no software or programming knowledge to use. Our AI Writer tool has a simple interface that allows you to generate content in a few easy steps."
     },
     {
         "class" : "news-container",
-        "url" : "https://gas-kvas.com/uploads/posts/2023-02/1675462341_gas-kvas-com-p-fonovii-risunok-robot-47.jpg",
+        "url" : "https://images.unsplash.com/photo-1708783736949-f2da5320c993?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "width" : 500,
         "height" : 334,
-        "heading" : "This tool requires no software or programming knowledge to use. Our AI Writer tool has a simple interface that allows you to generate content in a few easy steps.",
-        "text" : "The essays are composed entirely of original content; however"
+        "heading" : "The essays are composed entirely of original content; however",
+        "text" : "This tool requires no software or programming knowledge to use. Our AI Writer tool has a simple interface that allows you to generate content in a few easy steps."
     }
 ]
 `;
