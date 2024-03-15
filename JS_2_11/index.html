@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_2_11</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .content{
+             border: 3px solid blue;
+             width: 300px;
+             height: 300px;
+             margin: 10px;
+             padding: 10px;
+        }
+        .item{
+             width: 1400px;
+             margin: 0 auto;
+             display: flex;
+             gap: 30px;
+             flex-direction: column;
+             flex-wrap: wrap;
+        }
+        .item_close{
+             position: absolute;
+             top: 28px;
+             right: 22px;
+        }
+        .item_desc{
+             padding: 22px 22px 62px 31px;
+        }
+        .item_title{
+             margin-bottom: 42px;
+             color: #222;
+             font-family: "latoregular", "sans-serif";
+             font-size: 24px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: normal;
+             width: 195px;
+        }
+        .item_price, .item_color, .item_size, .item_quantity {
+             margin-bottom: 6px;
+             color: #575757;
+             font-family: "latoregular", "sans-serif";
+             font-size: 22px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: normal;
+             width: 195px;
+        }
+        .item_price-red{
+             color: #ef5b78;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+    <div>
+    <template id="news_template"> 
+        <div class="item">
+            <img class="item_img" src="" alt="" >
+            <div class="item_desc">
+                <div class="item_title">
+                   
+                </div>
+                <svg class="item_close" xmlns="https://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                    fill="none">
+                    <path
+                        d="M11.2453 9L17.5302 2.71516C17.5302 2.71516 2.71516 2.0"
+                        fill="#575757" />
+                </svg>
+                </div class="item_price">
+                    Price: <span class="item_price-red"></span>
+                </div>
+                <div class="item_color">Color: </div>
+                <div class="item_size">Size: </div>
+                <div class="item_quantity">
+                    Quantity:
+                    <input type="number" value="" />
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
